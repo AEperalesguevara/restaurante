@@ -1,0 +1,18 @@
+.carousel {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 120px;
+  margin-bottom: 200px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.carousel img {
+  width: 98%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 25px;
+  border: 8px solid #ffd61d;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}

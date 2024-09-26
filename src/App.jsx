@@ -1,31 +1,18 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import './App.css';
-// import React from 'react';
+import Navbar from './components/Navbar';
+import Carousel from './components/Carousel';
+import DishGrid from './components/DishGrid';
+import RestaurantInfo from './components/RestaurantInfo';
+import ContactInfo from './components/ContactInfo';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <div>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((prev) => prev + 1)} type="button">
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="app-container">
+      <Navbar />
+      <Carousel />
+      <RestaurantInfo />
+      <DishGrid />
+      <ContactInfo />
+    </div>
   );
 }
 

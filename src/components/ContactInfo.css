@@ -1,0 +1,28 @@
+.contact-info {
+  text-align: center;
+  margin: 2rem 0;
+  margin-bottom: 50px;
+}
+
+.contact-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-info p {
+  margin: 0.5rem 0;
+}
+
+.social-media {
+  margin-top: 1rem;
+}
+
+.social-media a {
+  margin: 0 1rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color: #007bff;
+}

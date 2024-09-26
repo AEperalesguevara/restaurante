@@ -1,0 +1,21 @@
+.restaurant-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+  margin-bottom: 15rem;
+}
+
+.restaurant-logo {
+  width: 400px;
+  margin-right: 8rem;
+  border-radius: 40px;
+  border: 5px solid #eb1a1a;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.restaurant-description {
+  max-width: 600px;
+  font-size: 1.2rem;
+  color: #333;
+}
